@@ -15,7 +15,7 @@
     "prettier:fix": "prettier --write .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Md Majharul Islam",
+  "author": "Md Shakil Hossain",
   "license": "ISC",
   "lint-staged": {
     "src/**/*.ts": "yarn lint-prettier"
