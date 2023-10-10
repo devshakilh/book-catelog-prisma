@@ -13,7 +13,7 @@ The main focus of this assignment is to implement CRUD operations, pagination an
 - Use Prisma as the Object Realtion Model (ORM).
 - Use postgreSQL as the database.
 
-### Live Link: https://a8-book-catalog.vercel.app/
+### Live Link: https://book-catelog-prisma.vercel.app/
 
 ## Installation Steps
 
@@ -47,34 +47,34 @@ yarn dev
 
 #### User
 
-- https://a8-book-catalog.vercel.app/api/v1/auth/signup (POST)
-- https://a8-book-catalog.vercel.app/api/v1/auth/signin (POST)
-- https://a8-book-catalog.vercel.app/api/v1/users (GET)
-- https://a8-book-catalog.vercel.app/api/v1/users/1663dd1f-a63d-4d0a-8d7d-bd3ccbcde51b (Single GET)
-- https://a8-book-catalog.vercel.app/api/v1/users/1663dd1f-a63d-4d0a-8d7d-bd3ccbcde51b (PATCH)
-- https://a8-book-catalog.vercel.app/api/v1/users/1663dd1f-a63d-4d0a-8d7d-bd3ccbcde51b (DELETE)
-- https://a8-book-catalog.vercel.app/api/v1/profile (GET)
+- https://book-catelog-prisma.vercel.app/api/v1/auth/signup (POST)
+- https://book-catelog-prisma.vercel.app/api/v1/auth/signin (POST)
+- https://book-catelog-prisma.vercel.app/api/v1/users (GET)
+- https://book-catelog-prisma.vercel.app/api/v1/users/1663dd1f-a63d-4d0a-8d7d-bd3ccbcde51b (Single GET)
+- https://book-catelog-prisma.vercel.app/api/v1/users/1663dd1f-a63d-4d0a-8d7d-bd3ccbcde51b (PATCH)
+- https://book-catelog-prisma.vercel.app/api/v1/users/1663dd1f-a63d-4d0a-8d7d-bd3ccbcde51b (DELETE)
+- https://book-catelog-prisma.vercel.app/api/v1/profile (GET)
 
 ### Category
 
-- https://a8-book-catalog.vercel.app/api/v1/categories/create-category (POST)
-- https://a8-book-catalog.vercel.app/api/v1/categories (GET)
-- https://a8-book-catalog.vercel.app/api/v1/categories/8e2587db-c4eb-4979-9368-a314364c8005 (Single GET)
-- https://a8-book-catalog.vercel.app/api/v1/categories/8e2587db-c4eb-4979-9368-a314364c8005 (PATCH)
-- https://a8-book-catalog.vercel.app/api/v1/categories/8e2587db-c4eb-4979-9368-a314364c8005 (DELETE)
+- https://book-catelog-prisma.vercel.app/api/v1/categories/create-category (POST)
+- https://book-catelog-prisma.vercel.app/api/v1/categories (GET)
+- https://book-catelog-prisma.vercel.app/api/v1/categories/8e2587db-c4eb-4979-9368-a314364c8005 (Single GET)
+- https://book-catelog-prisma.vercel.app/api/v1/categories/8e2587db-c4eb-4979-9368-a314364c8005 (PATCH)
+- https://book-catelog-prisma.vercel.app/api/v1/categories/8e2587db-c4eb-4979-9368-a314364c8005 (DELETE)
 
 ### Books
 
-- https://a8-book-catalog.vercel.app/api/v1/books/create-book (POST)
-- https://a8-book-catalog.vercel.app/api/v1/books (GET)
-- https://a8-book-catalog.vercel.app/api/v1/books/:categoryId/category (GET)
-- https://a8-book-catalog.vercel.app/api/v1/books/210d0cbc-450e-48cd-b3df-01d4ba1ec8b2 (GET)
-- https://a8-book-catalog.vercel.app/api/v1/books/210d0cbc-450e-48cd-b3df-01d4ba1ec8b2 (PATCH)
-- https://a8-book-catalog.vercel.app/api/v1/books/210d0cbc-450e-48cd-b3df-01d4ba1ec8b2 (DELETE)
+- https://book-catelog-prisma.vercel.app/api/v1/books/create-book (POST)
+- https://book-catelog-prisma.vercel.app/api/v1/books (GET)
+- https://book-catelog-prisma.vercel.app/api/v1/books/:categoryId/category (GET)
+- https://book-catelog-prisma.vercel.app/api/v1/books/210d0cbc-450e-48cd-b3df-01d4ba1ec8b2 (GET)
+- https://book-catelog-prisma.vercel.app/api/v1/books/210d0cbc-450e-48cd-b3df-01d4ba1ec8b2 (PATCH)
+- https://book-catelog-prisma.vercel.app/api/v1/books/210d0cbc-450e-48cd-b3df-01d4ba1ec8b2 (DELETE)
 
 ### Orders
 
-- https://a8-book-catalog.vercel.app/api/v1/orders/create-order (POST)
-- https://a8-book-catalog.vercel.app/api/v1/orders (GET)
-- https://a8-book-catalog.vercel.app/api/v1/orders/57df3808-3a34-4793-9c7f-3003b547076c (GET)
+- https://book-catelog-prisma.vercel.app/api/v1/orders/create-order (POST)
+- https://book-catelog-prisma.vercel.app/api/v1/orders (GET)
+- https://book-catelog-prisma.vercel.app/api/v1/orders/57df3808-3a34-4793-9c7f-3003b547076c (GET)
 "# book-catelog-prisma" 
